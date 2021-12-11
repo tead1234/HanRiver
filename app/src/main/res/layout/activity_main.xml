@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <RelativeLayout
+        android:layout_width="296dp"
+        android:layout_height="659dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/TV"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:textColorHighlight="@color/purple_200"
+            android:text="한강은 아직 차갑다\n 우리친구들을 한번 찾아보자" />
+
+        <EditText
+            android:id="@+id/StockNum"
+            android:layout_width="196dp"
+            android:layout_height="69dp"
+            android:layout_below="@id/TV"
+            android:text="000660">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/StockAveragePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/StockNum"
+            android:layout_marginTop="2dp"
+            android:minHeight="48dp"
+            android:text="140000">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/Search"
+            android:text="친구찾기"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/StockAveragePrice"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            >
+
+        </Button>
+    </RelativeLayout>
+</LinearLayout>

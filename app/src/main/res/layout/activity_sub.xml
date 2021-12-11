@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/Stock_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="당신의"
+            android:textSize="75dp"
+            tools:ignore="ExtraText" />
+
+        <TextView
+            android:id="@+id/Stock_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Stock_title"
+            android:layout_centerHorizontal="true"
+            android:text="삼성전자"
+            android:textSize="75dp"
+            tools:ignore="ExtraText" />
+
+        <TextView
+            android:id="@+id/평균단가"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Stock_name"
+            android:layout_centerHorizontal="true"
+            android:text="1000000"
+            android:textSize="40dp" />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imagebt"
+            android:layout_below="@id/평균단가"
+            android:contentDescription="TODO"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            android:src="@drawable/soju"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imagebt2"
+            android:layout_below="@id/평균단가"
+            android:contentDescription="TODO"
+            android:visibility="gone"
+            android:src="@drawable/bufef"
+            android:scaleType="fitXY"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imagebt3"
+            android:layout_below="@id/평균단가"
+            android:contentDescription="TODO"
+            android:visibility="gone"
+            android:src="@drawable/chiken"
+            android:scaleType="fitXY"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
